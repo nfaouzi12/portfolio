@@ -84,7 +84,7 @@
 	font-size:1.3em;
 	}
 	.cover{
-		height: calc(60vh - 66px);
+		height: calc(50vh - 66px);
 	}
 	.bloc{
 		height: calc(50vh - 66px);
