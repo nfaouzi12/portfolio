@@ -1,0 +1,69 @@
+.menu{
+	background:#825a57;
+	width:100%;
+	line-height:66px;
+	position:fixed;
+	z-index:1;
+	display: flex;
+}
+.logo{
+	padding: 0;
+	margin: 0 15px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'ROBOTO';
+	font-weight: 900;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.h-left{
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;
+	float:left;
+	
+}
+
+.h-link{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	height:55px;
+	display: inline-block;
+	padding: 0;
+	margin: 0 15px;
+	transition: all 0.3s ease-in-out;
+	border-bottom: 5px solid transparent;
+	border-top: 5px solid transparent;
+}
+.h-link img{
+	width:30px;
+}
+.h-link:hover{
+	padding-bottom: 3px;
+	border-color: #fff;
+}
+.h-link i{
+	margin-right: 5px;
+}
+.h-nav-toggle{
+	width: 60px;
+	height: 80px;
+	display: none;
+	align-items: center;
+	float:left;
+	cursor:pointer;
+}
+span.h-toggle-icon, span.h-toggle-icon:before, span.h-toggle-icon:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 5px;
+	background: #fff;
+	position: relative;
+}
+span.h-toggle-icon:before{top: 10px;}
+span.h-toggle-icon:after{top: -16px;}
+.h-right.is-open{
+	transform: translateX(0);
+	}

@@ -1,0 +1,109 @@
+@media only screen and (max-width: 1025px){
+	.menu{
+	height:80px;
+	line-height:80px;
+	}
+	.inner {
+		margin: 0px;
+	}
+	.form{
+		margin-top: 80px;
+	}
+	.h-right{
+		margin-top: 80px;
+		width: 300px;
+		height: 100vh;
+		background: #b89391;
+		transform: translateX(-100%);
+		transition: all 0.3s ease-in-out;
+		z-index:1;
+		font-size:20px;
+	}
+	.h-left h1{
+		font-size:30px;
+	}
+	.h-link{
+		display: block;
+		padding: 0;margin: 0 15px;
+		text-align: center;
+		height: 60px;
+		line-height:60px;
+	}
+	.h-nav-toggle{
+		display: flex;
+		padding-left: 10px;
+	}
+	.form button{
+		width: 100%;
+	}
+}
+@media only screen and (max-device-width: 450px){
+	.menu{
+	height:150px;
+	line-height:150px;
+	}
+	.inner {
+		margin: 0px;
+	}
+	.h-right{
+		margin-top: 150px;
+		width: 800px;
+		height: 100vh;
+		transform: translateX(-100%);
+		transition: all 0.3s ease-in-out;
+		z-index:1;
+		font-size:50px;
+	}
+	.h-left h1{
+		font-size:50px;
+	}
+	.h-link{
+		display: block;
+		padding: 0;margin: 0 15px;
+		text-align: center;
+		height: 150px;
+	}
+	.h-nav-toggle{
+		display: flex;
+		padding: 30px;
+	}
+	span.h-toggle-icon:before{top: 20px;}
+	span.h-toggle-icon:after{top: -28px;}
+	span.h-toggle-icon, span.h-toggle-icon:before, span.h-toggle-icon:after{height: 10px;}
+	.form{
+		margin-top: 150px;
+	}
+	.f-h1{
+		font-size: 40px;
+		margin-top: 150px;
+	}
+	.form td{
+	font-size:1.19em;
+	}
+	.c-text{
+	font-size:1.3em;
+	}
+	.cover{
+		height: calc(50vh - 66px);
+	}
+	.bloc{
+		height: calc(50vh - 66px);
+	}
+	.bloc-project{
+		height: calc(50vh - 66px);
+	}
+	.div-right {
+		flex-direction: column;
+		font-size: 30px;
+	}
+	.t-footer a{
+		font-size: 30px;
+	}
+	.t-body img {
+		width: 500px;
+	}
+	.comp{
+		width: 500px;
+		margin-bottom:20px;
+	}
+}
