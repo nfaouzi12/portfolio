@@ -262,3 +262,22 @@
 	font-weight: 900;
 	font-size: 15px;
 }
+#projets + .bloc .div-right {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	align-items: flex-start;
+}
+
+#projets + .bloc .comp {
+	margin-bottom: 20px;
+}
+#competences + .bloc .div-right {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+#competences + .bloc .comp {
+	width: 250px;
+}
